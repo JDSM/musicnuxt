@@ -1,0 +1,36 @@
+{
+  "name": "musicnuxt",
+  "version": "1.0.0",
+  "description": "My proyect nuxt.js",
+  "author": "JDSM <jesusdmalave@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "mini-toastr": "^0.8.1",
+    "nuxt": "^1.0.0",
+    "vue-notifications": "^0.9.0",
+    "vue-style-loader": "^4.1.0",
+    "vue-toasted": "^1.1.24"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vuetify": "^1.0.19"
+  }
+}
